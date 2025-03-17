@@ -1,7 +1,27 @@
-# en-paper-implementation
+# E(n) Equivariant Graph Neural Networks
 
+## Directory Structure
+```
+REPO
+│── csv/
+│   ├── sample_results_v3_sample_x.pkl
+│   ├── train_results_v3_sample_x.pkl
+│   ├── train_results_v2.pkl
+│── logs/
+│   ├── slurm_en3_main_v2_58210102.out
+│   ├── slurm_en3_main_v3_58225060.out
+│── plots/
+│   ├── mse_curves_v3.png
+│   ├── training_curves_v2.png
+│   ├── training_curves_v3_sample_x.png
+│── src/
+│   ├── main_v3.py
+│   ├── data_generation.py
+```
 
-## Folder Descriptions
+<br>
+
+## Description
 
 - **`src/`**: This folder contains the core scripts for training the model.
   - `main_v3.py`: The main Python script used for training. 
@@ -30,10 +50,16 @@
 
     - `slurm_en3_main_v2_58210102.out`: Holds training logs, when run with `main(CONFIG)`.
     - `slurm_en3_main_v3_58225060.out`: Holds training logs, which contains the overall results from the training process, when executed with `sampleRunMain(CONFIG)` function. 
+
+<br>
+
 ---
 
 ```
 NOTE: I created two versions of `main_v3.py` file for parallelization in HPC - one to run main(CONFIG) function and the other to run sampleRunMain(CONFIG) function.
 ```
+---
+
+<br>
 
 For further details, please check the logs and generated plots in their respective directories.
