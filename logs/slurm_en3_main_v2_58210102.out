@@ -1,0 +1,705 @@
+Dataset Path: ./datanew/nbody_data_3000tr_2000v_2000te.pkl
+
+
+Device: cuda:0 | Number of GPUs: 2
+
+
+[Dataset] Loading existing dataset from ./datanew/nbody_data_3000tr_2000v_2000te.pkl.
+[Dataset] Loaded dataset with 3000 training, 2000 validation and 2000 test simulations.
+
+		Dataset generation and conversion took 2.54 seconds.
+
+
+Model setup with 4 EGNN layers.
+Using 2 GPUs for training.
+
+
+==================== Training in progress ====================
+
+
+Training progress:   0%|          | 0/600 [00:00<?, ?it/s]Training progress:   0%|          | 1/600 [01:31<15:17:57, 91.95s/it]Training progress:   0%|          | 2/600 [03:03<15:11:10, 91.42s/it]Training progress:   0%|          | 3/600 [04:34<15:08:15, 91.28s/it]Training progress:   1%|          | 4/600 [06:05<15:06:11, 91.23s/it]
+	Epoch: 5/600 | Time taken: 456.49 seconds | Time remaining: 54414.20 seconds
+	EGNN Loss: 0.3914 | GNN Loss: 93.8500
+
+Training progress:   1%|          | 5/600 [07:36<15:04:41, 91.23s/it]Training progress:   1%|          | 6/600 [09:07<15:02:50, 91.20s/it]Training progress:   1%|          | 7/600 [10:38<15:00:50, 91.15s/it]Training progress:   1%|▏         | 8/600 [12:09<14:59:29, 91.16s/it]Training progress:   2%|▏         | 9/600 [13:40<14:57:38, 91.13s/it]
+	Epoch: 10/600 | Time taken: 912.11 seconds | Time remaining: 53905.70 seconds
+	EGNN Loss: 0.0649 | GNN Loss: 32.2181
+
+		Validating models at epoch 10
+		EGNN Validation Loss: 0.0807 | GNN Validation Loss: 45.2549
+
+Training progress:   2%|▏         | 10/600 [15:29<15:48:03, 96.41s/it]Training progress:   2%|▏         | 11/600 [16:58<15:25:49, 94.31s/it]Training progress:   2%|▏         | 12/600 [18:29<15:14:20, 93.30s/it]Training progress:   2%|▏         | 13/600 [20:00<15:06:44, 92.68s/it]Training progress:   2%|▏         | 14/600 [21:32<15:00:20, 92.19s/it]
+	Epoch: 15/600 | Time taken: 1382.54 seconds | Time remaining: 54011.38 seconds
+	EGNN Loss: 0.0178 | GNN Loss: 17.3193
+
+Training progress:   2%|▎         | 15/600 [23:02<14:53:58, 91.69s/it]Training progress:   3%|▎         | 16/600 [24:33<14:50:03, 91.44s/it]Training progress:   3%|▎         | 17/600 [26:04<14:48:18, 91.42s/it]Training progress:   3%|▎         | 18/600 [27:35<14:45:29, 91.29s/it]Training progress:   3%|▎         | 19/600 [29:07<14:44:15, 91.32s/it]
+	Epoch: 20/600 | Time taken: 1837.92 seconds | Time remaining: 53391.49 seconds
+	EGNN Loss: 0.0092 | GNN Loss: 11.6948
+
+		Validating models at epoch 20
+		EGNN Validation Loss: 0.0132 | GNN Validation Loss: 16.8222
+
+Training progress:   3%|▎         | 20/600 [30:55<15:32:18, 96.45s/it]Training progress:   4%|▎         | 21/600 [32:26<15:13:26, 94.66s/it]Training progress:   4%|▎         | 22/600 [33:55<14:57:40, 93.18s/it]Training progress:   4%|▍         | 23/600 [35:25<14:47:04, 92.24s/it]Training progress:   4%|▍         | 24/600 [36:55<14:38:45, 91.54s/it]
+	Epoch: 25/600 | Time taken: 2304.90 seconds | Time remaining: 53104.90 seconds
+	EGNN Loss: 0.0038 | GNN Loss: 9.6355
+
+Training progress:   4%|▍         | 25/600 [38:24<14:30:26, 90.83s/it]Training progress:   4%|▍         | 26/600 [39:53<14:21:29, 90.05s/it]Training progress:   4%|▍         | 27/600 [41:24<14:22:23, 90.30s/it]Training progress:   5%|▍         | 28/600 [42:53<14:19:44, 90.18s/it]Training progress:   5%|▍         | 29/600 [44:25<14:20:57, 90.47s/it]
+	Epoch: 30/600 | Time taken: 2755.71 seconds | Time remaining: 52450.32 seconds
+	EGNN Loss: 0.0017 | GNN Loss: 5.7963
+
+		Validating models at epoch 30
+		EGNN Validation Loss: 0.0020 | GNN Validation Loss: 11.0927
+
+Training progress:   5%|▌         | 30/600 [46:10<15:03:16, 95.08s/it]Training progress:   5%|▌         | 31/600 [47:41<14:49:50, 93.83s/it]Training progress:   5%|▌         | 32/600 [49:12<14:40:01, 92.96s/it]Training progress:   6%|▌         | 33/600 [50:43<14:32:38, 92.34s/it]Training progress:   6%|▌         | 34/600 [52:14<14:26:53, 91.90s/it]
+	Epoch: 35/600 | Time taken: 3225.37 seconds | Time remaining: 52158.83 seconds
+	EGNN Loss: 0.0010 | GNN Loss: 4.0834
+
+Training progress:   6%|▌         | 35/600 [53:45<14:22:25, 91.59s/it]Training progress:   6%|▌         | 36/600 [55:16<14:18:49, 91.37s/it]Training progress:   6%|▌         | 37/600 [56:47<14:15:59, 91.22s/it]Training progress:   6%|▋         | 38/600 [58:18<14:13:50, 91.16s/it]Training progress:   6%|▋         | 39/600 [59:49<14:11:44, 91.10s/it]
+	Epoch: 40/600 | Time taken: 3680.01 seconds | Time remaining: 51612.13 seconds
+	EGNN Loss: 0.0007 | GNN Loss: 3.1229
+
+		Validating models at epoch 40
+		EGNN Validation Loss: 0.0007 | GNN Validation Loss: 8.0048
+
+Training progress:   7%|▋         | 40/600 [1:01:35<14:52:18, 95.60s/it]Training progress:   7%|▋         | 41/600 [1:03:06<14:37:51, 94.22s/it]Training progress:   7%|▋         | 42/600 [1:04:33<14:16:42, 92.12s/it]Training progress:   7%|▋         | 43/600 [1:06:00<14:00:53, 90.58s/it]Training progress:   7%|▋         | 44/600 [1:07:27<13:50:12, 89.59s/it]
+	Epoch: 45/600 | Time taken: 4135.15 seconds | Time remaining: 51092.06 seconds
+	EGNN Loss: 0.0006 | GNN Loss: 2.7552
+
+Training progress:   8%|▊         | 45/600 [1:08:55<13:42:50, 88.96s/it]Training progress:   8%|▊         | 46/600 [1:10:22<13:36:16, 88.40s/it]Training progress:   8%|▊         | 47/600 [1:11:51<13:38:21, 88.79s/it]Training progress:   8%|▊         | 48/600 [1:13:21<13:39:45, 89.10s/it]Training progress:   8%|▊         | 49/600 [1:14:51<13:40:04, 89.30s/it]
+	Epoch: 50/600 | Time taken: 4582.60 seconds | Time remaining: 50500.21 seconds
+	EGNN Loss: 0.0005 | GNN Loss: 2.2932
+
+		Validating models at epoch 50
+		EGNN Validation Loss: 0.0005 | GNN Validation Loss: 7.0965
+
+Training progress:   8%|▊         | 50/600 [1:16:37<14:24:50, 94.35s/it]Training progress:   8%|▊         | 51/600 [1:18:07<14:12:09, 93.13s/it]Training progress:   9%|▊         | 52/600 [1:19:37<13:59:39, 91.93s/it]Training progress:   9%|▉         | 53/600 [1:21:06<13:52:05, 91.27s/it]Training progress:   9%|▉         | 54/600 [1:22:34<13:41:35, 90.28s/it]
+	Epoch: 55/600 | Time taken: 5044.74 seconds | Time remaining: 50080.52 seconds
+	EGNN Loss: 0.0004 | GNN Loss: 2.1544
+
+Training progress:   9%|▉         | 55/600 [1:24:04<13:39:05, 90.18s/it]Training progress:   9%|▉         | 56/600 [1:25:31<13:29:18, 89.26s/it]Training progress:  10%|▉         | 57/600 [1:27:00<13:26:00, 89.06s/it]Training progress:  10%|▉         | 58/600 [1:28:30<13:28:01, 89.45s/it]Training progress:  10%|▉         | 59/600 [1:30:00<13:27:00, 89.50s/it]
+	Epoch: 60/600 | Time taken: 5491.40 seconds | Time remaining: 49514.13 seconds
+	EGNN Loss: 0.0004 | GNN Loss: 3.1311
+
+		Validating models at epoch 60
+		EGNN Validation Loss: 0.0005 | GNN Validation Loss: 6.9555
+
+Training progress:  10%|█         | 60/600 [1:31:47<14:13:16, 94.81s/it]Training progress:  10%|█         | 61/600 [1:33:14<13:51:19, 92.54s/it]Training progress:  10%|█         | 62/600 [1:34:46<13:46:41, 92.20s/it]Training progress:  10%|█         | 63/600 [1:36:14<13:34:53, 91.05s/it]Training progress:  11%|█         | 64/600 [1:37:45<13:33:03, 91.01s/it]
+	Epoch: 65/600 | Time taken: 5956.55 seconds | Time remaining: 49118.62 seconds
+	EGNN Loss: 0.0004 | GNN Loss: 2.0184
+
+Training progress:  11%|█         | 65/600 [1:39:16<13:31:25, 91.00s/it]Training progress:  11%|█         | 66/600 [1:40:47<13:30:06, 91.02s/it]Training progress:  11%|█         | 67/600 [1:42:16<13:24:09, 90.52s/it]Training progress:  11%|█▏        | 68/600 [1:43:44<13:15:48, 89.75s/it]Training progress:  12%|█▏        | 69/600 [1:45:14<13:13:55, 89.71s/it]
+	Epoch: 70/600 | Time taken: 6405.81 seconds | Time remaining: 48592.68 seconds
+	EGNN Loss: 0.0004 | GNN Loss: 2.0791
+
+		Validating models at epoch 70
+		EGNN Validation Loss: 0.0004 | GNN Validation Loss: 4.3400
+
+Training progress:  12%|█▏        | 70/600 [1:47:03<14:03:37, 95.50s/it]Training progress:  12%|█▏        | 71/600 [1:48:33<13:47:50, 93.90s/it]Training progress:  12%|█▏        | 72/600 [1:50:02<13:31:45, 92.24s/it]Training progress:  12%|█▏        | 73/600 [1:51:29<13:16:31, 90.69s/it]Training progress:  12%|█▏        | 74/600 [1:52:57<13:08:36, 89.96s/it]
+	Epoch: 75/600 | Time taken: 6866.12 seconds | Time remaining: 48154.38 seconds
+	EGNN Loss: 0.0004 | GNN Loss: 1.3159
+
+Training progress:  12%|█▎        | 75/600 [1:54:26<13:03:51, 89.58s/it]Training progress:  13%|█▎        | 76/600 [1:55:54<12:59:05, 89.21s/it]Training progress:  13%|█▎        | 77/600 [1:57:21<12:51:39, 88.53s/it]Training progress:  13%|█▎        | 78/600 [1:58:48<12:46:14, 88.07s/it]Training progress:  13%|█▎        | 79/600 [2:00:15<12:42:13, 87.78s/it]
+	Epoch: 80/600 | Time taken: 7302.60 seconds | Time remaining: 47558.15 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 1.8491
+
+		Validating models at epoch 80
+		EGNN Validation Loss: 0.0004 | GNN Validation Loss: 5.4292
+
+Training progress:  13%|█▎        | 80/600 [2:01:57<13:18:24, 92.12s/it]Training progress:  14%|█▎        | 81/600 [2:03:24<13:04:02, 90.64s/it]Training progress:  14%|█▎        | 82/600 [2:04:52<12:53:49, 89.63s/it]Training progress:  14%|█▍        | 83/600 [2:06:19<12:46:24, 88.95s/it]Training progress:  14%|█▍        | 84/600 [2:07:46<12:40:14, 88.40s/it]
+	Epoch: 85/600 | Time taken: 7753.94 seconds | Time remaining: 47070.96 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 2.0427
+
+Training progress:  14%|█▍        | 85/600 [2:09:13<12:35:47, 88.05s/it]Training progress:  14%|█▍        | 86/600 [2:10:41<12:33:23, 87.94s/it]Training progress:  14%|█▍        | 87/600 [2:12:08<12:30:15, 87.75s/it]Training progress:  15%|█▍        | 88/600 [2:13:36<12:27:55, 87.65s/it]Training progress:  15%|█▍        | 89/600 [2:15:03<12:25:13, 87.50s/it]
+	Epoch: 90/600 | Time taken: 8190.91 seconds | Time remaining: 46506.15 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 1.3530
+
+		Validating models at epoch 90
+		EGNN Validation Loss: 0.0004 | GNN Validation Loss: 4.4518
+
+Training progress:  15%|█▌        | 90/600 [2:16:46<13:02:16, 92.03s/it]Training progress:  15%|█▌        | 91/600 [2:18:13<12:48:25, 90.58s/it]Training progress:  15%|█▌        | 92/600 [2:19:40<12:39:18, 89.68s/it]Training progress:  16%|█▌        | 93/600 [2:21:08<12:32:57, 89.11s/it]Training progress:  16%|█▌        | 94/600 [2:22:35<12:26:36, 88.53s/it]
+	Epoch: 95/600 | Time taken: 8643.29 seconds | Time remaining: 46036.89 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 1.4746
+
+Training progress:  16%|█▌        | 95/600 [2:24:03<12:22:26, 88.21s/it]Training progress:  16%|█▌        | 96/600 [2:25:30<12:18:45, 87.95s/it]Training progress:  16%|█▌        | 97/600 [2:26:58<12:16:19, 87.83s/it]Training progress:  16%|█▋        | 98/600 [2:28:25<12:13:53, 87.72s/it]Training progress:  16%|█▋        | 99/600 [2:29:53<12:11:57, 87.66s/it]
+	Epoch: 100/600 | Time taken: 9080.56 seconds | Time remaining: 45493.60 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 1.4329
+
+		Validating models at epoch 100
+		EGNN Validation Loss: 0.0003 | GNN Validation Loss: 3.4856
+
+Training progress:  17%|█▋        | 100/600 [2:31:35<12:48:26, 92.21s/it]Training progress:  17%|█▋        | 101/600 [2:33:03<12:34:38, 90.74s/it]Training progress:  17%|█▋        | 102/600 [2:34:30<12:24:23, 89.69s/it]Training progress:  17%|█▋        | 103/600 [2:35:57<12:16:51, 88.96s/it]Training progress:  17%|█▋        | 104/600 [2:37:25<12:11:39, 88.51s/it]
+	Epoch: 105/600 | Time taken: 9532.73 seconds | Time remaining: 45030.82 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 0.9934
+
+Training progress:  18%|█▊        | 105/600 [2:38:52<12:07:40, 88.20s/it]Training progress:  18%|█▊        | 106/600 [2:40:19<12:03:38, 87.89s/it]Training progress:  18%|█▊        | 107/600 [2:41:46<12:00:09, 87.65s/it]Training progress:  18%|█▊        | 108/600 [2:43:14<11:57:11, 87.46s/it]Training progress:  18%|█▊        | 109/600 [2:44:41<11:54:54, 87.36s/it]
+	Epoch: 110/600 | Time taken: 9968.28 seconds | Time remaining: 44494.76 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 1.5784
+
+		Validating models at epoch 110
+		EGNN Validation Loss: 0.0003 | GNN Validation Loss: 3.5387
+
+Training progress:  18%|█▊        | 110/600 [2:46:23<12:29:51, 91.82s/it]Training progress:  18%|█▊        | 111/600 [2:47:50<12:16:48, 90.41s/it]Training progress:  19%|█▊        | 112/600 [2:49:17<12:07:03, 89.39s/it]Training progress:  19%|█▉        | 113/600 [2:50:47<12:07:52, 89.68s/it]Training progress:  19%|█▉        | 114/600 [2:52:17<12:07:32, 89.82s/it]
+	Epoch: 115/600 | Time taken: 10429.01 seconds | Time remaining: 44073.90 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 1.1728
+
+Training progress:  19%|█▉        | 115/600 [2:53:49<12:08:58, 90.18s/it]Training progress:  19%|█▉        | 116/600 [2:55:20<12:09:53, 90.48s/it]Training progress:  20%|█▉        | 117/600 [2:56:51<12:09:54, 90.67s/it]Training progress:  20%|█▉        | 118/600 [2:58:22<12:09:22, 90.79s/it]Training progress:  20%|█▉        | 119/600 [2:59:51<12:04:09, 90.33s/it]
+	Epoch: 120/600 | Time taken: 10879.10 seconds | Time remaining: 43607.05 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 1.1867
+
+		Validating models at epoch 120
+		EGNN Validation Loss: 0.0003 | GNN Validation Loss: 3.0765
+
+Training progress:  20%|██        | 120/600 [3:01:34<12:32:00, 94.00s/it]Training progress:  20%|██        | 121/600 [3:03:01<12:13:49, 91.92s/it]Training progress:  20%|██        | 122/600 [3:04:28<12:00:55, 90.49s/it]Training progress:  20%|██        | 123/600 [3:05:55<11:51:25, 89.49s/it]Training progress:  21%|██        | 124/600 [3:07:22<11:44:41, 88.83s/it]
+	Epoch: 125/600 | Time taken: 11332.53 seconds | Time remaining: 43154.26 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 1.4156
+
+Training progress:  21%|██        | 125/600 [3:08:52<11:45:13, 89.08s/it]Training progress:  21%|██        | 126/600 [3:10:23<11:48:40, 89.71s/it]Training progress:  21%|██        | 127/600 [3:11:54<11:50:31, 90.13s/it]Training progress:  21%|██▏       | 128/600 [3:13:25<11:51:17, 90.42s/it]Training progress:  22%|██▏       | 129/600 [3:14:57<11:51:32, 90.64s/it]
+	Epoch: 130/600 | Time taken: 11788.09 seconds | Time remaining: 42709.15 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 1.2875
+
+		Validating models at epoch 130
+		EGNN Validation Loss: 0.0003 | GNN Validation Loss: 3.1843
+
+Training progress:  22%|██▏       | 130/600 [3:16:43<12:26:50, 95.34s/it]Training progress:  22%|██▏       | 131/600 [3:18:12<12:10:01, 93.39s/it]Training progress:  22%|██▏       | 132/600 [3:19:39<11:53:22, 91.46s/it]Training progress:  22%|██▏       | 133/600 [3:21:06<11:41:59, 90.19s/it]Training progress:  22%|██▏       | 134/600 [3:22:33<11:33:54, 89.34s/it]
+	Epoch: 135/600 | Time taken: 12241.00 seconds | Time remaining: 42254.13 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 1.6987
+
+Training progress:  22%|██▎       | 135/600 [3:24:01<11:27:30, 88.71s/it]Training progress:  23%|██▎       | 136/600 [3:25:28<11:23:22, 88.37s/it]Training progress:  23%|██▎       | 137/600 [3:26:55<11:18:45, 87.96s/it]Training progress:  23%|██▎       | 138/600 [3:28:22<11:15:36, 87.74s/it]Training progress:  23%|██▎       | 139/600 [3:29:49<11:12:50, 87.57s/it]
+	Epoch: 140/600 | Time taken: 12677.27 seconds | Time remaining: 41744.45 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 0.9023
+
+		Validating models at epoch 140
+		EGNN Validation Loss: 0.0003 | GNN Validation Loss: 2.9677
+
+Training progress:  23%|██▎       | 140/600 [3:31:32<11:45:47, 92.06s/it]Training progress:  24%|██▎       | 141/600 [3:33:00<11:33:46, 90.69s/it]Training progress:  24%|██▎       | 142/600 [3:34:27<11:24:14, 89.64s/it]Training progress:  24%|██▍       | 143/600 [3:35:54<11:17:13, 88.91s/it]Training progress:  24%|██▍       | 144/600 [3:37:21<11:11:50, 88.40s/it]
+	Epoch: 145/600 | Time taken: 13128.81 seconds | Time remaining: 41287.83 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 0.8880
+
+Training progress:  24%|██▍       | 145/600 [3:38:48<11:07:36, 88.04s/it]Training progress:  24%|██▍       | 146/600 [3:40:16<11:04:23, 87.81s/it]Training progress:  24%|██▍       | 147/600 [3:41:43<11:02:45, 87.78s/it]Training progress:  25%|██▍       | 148/600 [3:43:11<11:01:46, 87.85s/it]Training progress:  25%|██▍       | 149/600 [3:44:38<10:58:50, 87.65s/it]
+	Epoch: 150/600 | Time taken: 13566.33 seconds | Time remaining: 40789.44 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 0.9579
+
+		Validating models at epoch 150
+		EGNN Validation Loss: 0.0003 | GNN Validation Loss: 4.0608
+
+Training progress:  25%|██▌       | 150/600 [3:46:21<11:31:06, 92.15s/it]Training progress:  25%|██▌       | 151/600 [3:47:48<11:18:43, 90.70s/it]Training progress:  25%|██▌       | 152/600 [3:49:16<11:09:47, 89.70s/it]Training progress:  26%|██▌       | 153/600 [3:50:46<11:09:28, 89.86s/it]Training progress:  26%|██▌       | 154/600 [3:52:15<11:06:14, 89.63s/it]
+	Epoch: 155/600 | Time taken: 14025.15 seconds | Time remaining: 40356.24 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 0.8580
+
+Training progress:  26%|██▌       | 155/600 [3:53:45<11:04:28, 89.59s/it]Training progress:  26%|██▌       | 156/600 [3:55:12<10:58:54, 89.04s/it]Training progress:  26%|██▌       | 157/600 [3:56:39<10:53:05, 88.45s/it]Training progress:  26%|██▋       | 158/600 [3:58:07<10:48:36, 88.05s/it]Training progress:  26%|██▋       | 159/600 [3:59:34<10:44:48, 87.73s/it]
+	Epoch: 160/600 | Time taken: 14461.05 seconds | Time remaining: 39858.27 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 0.7478
+
+		Validating models at epoch 160
+		EGNN Validation Loss: 0.0003 | GNN Validation Loss: 2.5892
+
+Training progress:  27%|██▋       | 160/600 [4:01:16<11:14:59, 92.04s/it]Training progress:  27%|██▋       | 161/600 [4:02:43<11:02:28, 90.54s/it]Training progress:  27%|██▋       | 162/600 [4:04:10<10:53:24, 89.51s/it]Training progress:  27%|██▋       | 163/600 [4:05:37<10:46:37, 88.78s/it]Training progress:  27%|██▋       | 164/600 [4:07:04<10:41:20, 88.26s/it]
+	Epoch: 165/600 | Time taken: 14911.60 seconds | Time remaining: 39402.79 seconds
+	EGNN Loss: 0.0003 | GNN Loss: 0.6715
+
+Training progress:  28%|██▊       | 165/600 [4:08:31<10:37:28, 87.93s/it]Training progress:  28%|██▊       | 166/600 [4:09:58<10:34:08, 87.67s/it]Training progress:  28%|██▊       | 167/600 [4:11:25<10:31:22, 87.49s/it]Training progress:  28%|██▊       | 168/600 [4:12:52<10:28:45, 87.33s/it]Training progress:  28%|██▊       | 169/600 [4:14:19<10:26:58, 87.28s/it]
+	Epoch: 170/600 | Time taken: 15347.10 seconds | Time remaining: 38909.41 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.8381
+
+		Validating models at epoch 170
+		EGNN Validation Loss: 0.0003 | GNN Validation Loss: 4.1617
+
+Training progress:  28%|██▊       | 170/600 [4:16:02<10:58:15, 91.85s/it]Training progress:  28%|██▊       | 171/600 [4:17:29<10:46:30, 90.42s/it]Training progress:  29%|██▊       | 172/600 [4:18:56<10:37:49, 89.41s/it]Training progress:  29%|██▉       | 173/600 [4:20:23<10:31:04, 88.68s/it]Training progress:  29%|██▉       | 174/600 [4:21:50<10:25:57, 88.16s/it]
+	Epoch: 175/600 | Time taken: 15797.74 seconds | Time remaining: 38456.22 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.7259
+
+Training progress:  29%|██▉       | 175/600 [4:23:17<10:22:39, 87.90s/it]Training progress:  29%|██▉       | 176/600 [4:24:44<10:19:26, 87.66s/it]Training progress:  30%|██▉       | 177/600 [4:26:11<10:16:34, 87.46s/it]Training progress:  30%|██▉       | 178/600 [4:27:39<10:14:44, 87.40s/it]Training progress:  30%|██▉       | 179/600 [4:29:06<10:12:51, 87.34s/it]
+	Epoch: 180/600 | Time taken: 16233.37 seconds | Time remaining: 37968.05 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.9891
+
+		Validating models at epoch 180
+		EGNN Validation Loss: 0.0003 | GNN Validation Loss: 2.4110
+
+Training progress:  30%|███       | 180/600 [4:30:48<10:42:36, 91.80s/it]Training progress:  30%|███       | 181/600 [4:32:15<10:31:21, 90.41s/it]Training progress:  30%|███       | 182/600 [4:33:45<10:28:56, 90.28s/it]Training progress:  30%|███       | 183/600 [4:35:16<10:28:50, 90.48s/it]Training progress:  31%|███       | 184/600 [4:36:47<10:28:42, 90.68s/it]
+	Epoch: 185/600 | Time taken: 16698.88 seconds | Time remaining: 37549.91 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.7284
+
+Training progress:  31%|███       | 185/600 [4:38:18<10:28:10, 90.82s/it]Training progress:  31%|███       | 186/600 [4:39:49<10:27:08, 90.89s/it]Training progress:  31%|███       | 187/600 [4:41:18<10:20:49, 90.19s/it]Training progress:  31%|███▏      | 188/600 [4:42:45<10:13:04, 89.28s/it]Training progress:  32%|███▏      | 189/600 [4:44:12<10:07:02, 88.62s/it]
+	Epoch: 190/600 | Time taken: 17139.82 seconds | Time remaining: 37076.14 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.3644
+
+		Validating models at epoch 190
+		EGNN Validation Loss: 0.0003 | GNN Validation Loss: 2.5188
+
+Training progress:  32%|███▏      | 190/600 [4:45:54<10:33:19, 92.68s/it]Training progress:  32%|███▏      | 191/600 [4:47:21<10:20:13, 90.99s/it]Training progress:  32%|███▏      | 192/600 [4:48:48<10:10:31, 89.78s/it]Training progress:  32%|███▏      | 193/600 [4:50:15<10:03:26, 88.96s/it]Training progress:  32%|███▏      | 194/600 [4:51:42<9:58:07, 88.39s/it] 
+	Epoch: 195/600 | Time taken: 17590.10 seconds | Time remaining: 36623.50 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6903
+
+Training progress:  32%|███▎      | 195/600 [4:53:10<9:54:02, 88.00s/it]Training progress:  33%|███▎      | 196/600 [4:54:37<9:50:54, 87.76s/it]Training progress:  33%|███▎      | 197/600 [4:56:04<9:48:46, 87.66s/it]Training progress:  33%|███▎      | 198/600 [4:57:33<9:50:30, 88.14s/it]Training progress:  33%|███▎      | 199/600 [4:59:04<9:53:18, 88.78s/it]
+	Epoch: 200/600 | Time taken: 18035.51 seconds | Time remaining: 36161.20 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.8597
+
+		Validating models at epoch 200
+		EGNN Validation Loss: 0.0003 | GNN Validation Loss: 2.7086
+
+Training progress:  33%|███▎      | 200/600 [5:00:51<10:28:40, 94.30s/it]Training progress:  34%|███▎      | 201/600 [5:02:19<10:15:08, 92.50s/it]Training progress:  34%|███▎      | 202/600 [5:03:50<10:10:29, 92.03s/it]Training progress:  34%|███▍      | 203/600 [5:05:21<10:06:19, 91.64s/it]Training progress:  34%|███▍      | 204/600 [5:06:52<10:03:44, 91.48s/it]
+	Epoch: 205/600 | Time taken: 18503.56 seconds | Time remaining: 35743.46 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.0889
+
+Training progress:  34%|███▍      | 205/600 [5:08:23<10:01:25, 91.36s/it]Training progress:  34%|███▍      | 206/600 [5:09:52<9:55:36, 90.70s/it] Training progress:  34%|███▍      | 207/600 [5:11:22<9:52:56, 90.53s/it]Training progress:  35%|███▍      | 208/600 [5:12:50<9:46:38, 89.79s/it]Training progress:  35%|███▍      | 209/600 [5:14:18<9:40:06, 89.02s/it]
+	Epoch: 210/600 | Time taken: 18945.24 seconds | Time remaining: 35274.23 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6757
+
+		Validating models at epoch 210
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 2.8468
+
+Training progress:  35%|███▌      | 210/600 [5:16:01<10:06:45, 93.35s/it]Training progress:  35%|███▌      | 211/600 [5:17:31<9:58:23, 92.30s/it] Training progress:  35%|███▌      | 212/600 [5:18:58<9:46:56, 90.76s/it]Training progress:  36%|███▌      | 213/600 [5:20:29<9:45:01, 90.70s/it]Training progress:  36%|███▌      | 214/600 [5:21:59<9:42:50, 90.60s/it]
+	Epoch: 215/600 | Time taken: 19406.58 seconds | Time remaining: 34841.59 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.8981
+
+Training progress:  36%|███▌      | 215/600 [5:23:26<9:34:29, 89.53s/it]Training progress:  36%|███▌      | 216/600 [5:24:57<9:35:12, 89.88s/it]Training progress:  36%|███▌      | 217/600 [5:26:28<9:35:53, 90.22s/it]Training progress:  36%|███▋      | 218/600 [5:27:57<9:32:56, 89.99s/it]Training progress:  36%|███▋      | 219/600 [5:29:28<9:32:01, 90.08s/it]
+	Epoch: 220/600 | Time taken: 19858.27 seconds | Time remaining: 34390.91 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6819
+
+		Validating models at epoch 220
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 2.0305
+
+Training progress:  37%|███▋      | 220/600 [5:31:15<10:03:51, 95.35s/it]Training progress:  37%|███▋      | 221/600 [5:32:43<9:48:22, 93.15s/it] Training progress:  37%|███▋      | 222/600 [5:34:14<9:41:42, 92.34s/it]Training progress:  37%|███▋      | 223/600 [5:35:43<9:34:44, 91.47s/it]Training progress:  37%|███▋      | 224/600 [5:37:10<9:25:24, 90.22s/it]
+	Epoch: 225/600 | Time taken: 20317.91 seconds | Time remaining: 33953.48 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.0098
+
+Training progress:  38%|███▊      | 225/600 [5:38:37<9:17:52, 89.26s/it]Training progress:  38%|███▊      | 226/600 [5:40:07<9:16:32, 89.28s/it]Training progress:  38%|███▊      | 227/600 [5:41:37<9:17:10, 89.63s/it]Training progress:  38%|███▊      | 228/600 [5:43:08<9:17:42, 89.95s/it]Training progress:  38%|███▊      | 229/600 [5:44:38<9:16:19, 89.97s/it]
+	Epoch: 230/600 | Time taken: 20769.11 seconds | Time remaining: 33501.48 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.8986
+
+		Validating models at epoch 230
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 2.6145
+
+Training progress:  38%|███▊      | 230/600 [5:46:26<9:49:06, 95.53s/it]Training progress:  38%|███▊      | 231/600 [5:47:57<9:37:59, 93.98s/it]Training progress:  39%|███▊      | 232/600 [5:49:28<9:30:47, 93.06s/it]Training progress:  39%|███▉      | 233/600 [5:50:57<9:23:10, 92.07s/it]Training progress:  39%|███▉      | 234/600 [5:52:25<9:13:29, 90.74s/it]
+	Epoch: 235/600 | Time taken: 21234.21 seconds | Time remaining: 33071.16 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.5843
+
+Training progress:  39%|███▉      | 235/600 [5:53:54<9:08:09, 90.11s/it]Training progress:  39%|███▉      | 236/600 [5:55:24<9:07:03, 90.18s/it]Training progress:  40%|███▉      | 237/600 [5:56:51<8:59:38, 89.20s/it]Training progress:  40%|███▉      | 238/600 [5:58:18<8:54:01, 88.51s/it]Training progress:  40%|███▉      | 239/600 [5:59:45<8:49:40, 88.03s/it]
+	Epoch: 240/600 | Time taken: 21672.43 seconds | Time remaining: 32598.95 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.3220
+
+		Validating models at epoch 240
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 4.9001
+
+Training progress:  40%|████      | 240/600 [6:01:29<9:18:08, 93.02s/it]Training progress:  40%|████      | 241/600 [6:02:59<9:10:07, 91.94s/it]Training progress:  40%|████      | 242/600 [6:04:30<9:06:25, 91.58s/it]Training progress:  40%|████      | 243/600 [6:05:59<9:00:23, 90.82s/it]Training progress:  41%|████      | 244/600 [6:07:28<8:55:54, 90.32s/it]
+	Epoch: 245/600 | Time taken: 22138.70 seconds | Time remaining: 32168.89 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 2.6369
+
+Training progress:  41%|████      | 245/600 [6:08:58<8:54:30, 90.34s/it]Training progress:  41%|████      | 246/600 [6:10:29<8:53:13, 90.38s/it]Training progress:  41%|████      | 247/600 [6:12:00<8:52:44, 90.55s/it]Training progress:  41%|████▏     | 248/600 [6:13:27<8:46:18, 89.71s/it]Training progress:  42%|████▏     | 249/600 [6:14:55<8:41:16, 89.11s/it]
+	Epoch: 250/600 | Time taken: 22586.08 seconds | Time remaining: 31710.86 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6269
+
+		Validating models at epoch 250
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.7900
+
+Training progress:  42%|████▏     | 250/600 [6:16:41<9:09:39, 94.23s/it]Training progress:  42%|████▏     | 251/600 [6:18:10<8:58:28, 92.57s/it]Training progress:  42%|████▏     | 252/600 [6:19:37<8:47:15, 90.91s/it]Training progress:  42%|████▏     | 253/600 [6:21:04<8:38:51, 89.72s/it]Training progress:  42%|████▏     | 254/600 [6:22:32<8:33:49, 89.10s/it]
+	Epoch: 255/600 | Time taken: 23039.15 seconds | Time remaining: 31260.97 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.5890
+
+Training progress:  42%|████▎     | 255/600 [6:23:59<8:28:49, 88.49s/it]Training progress:  43%|████▎     | 256/600 [6:25:26<8:25:02, 88.09s/it]Training progress:  43%|████▎     | 257/600 [6:26:54<8:23:59, 88.16s/it]Training progress:  43%|████▎     | 258/600 [6:28:22<8:22:05, 88.09s/it]Training progress:  43%|████▎     | 259/600 [6:29:49<8:19:29, 87.89s/it]
+	Epoch: 260/600 | Time taken: 23476.99 seconds | Time remaining: 30790.97 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4595
+
+		Validating models at epoch 260
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.6839
+
+Training progress:  43%|████▎     | 260/600 [6:31:32<8:42:27, 92.20s/it]Training progress:  44%|████▎     | 261/600 [6:33:02<8:37:17, 91.56s/it]Training progress:  44%|████▎     | 262/600 [6:34:33<8:35:08, 91.45s/it]Training progress:  44%|████▍     | 263/600 [6:36:01<8:27:49, 90.41s/it]Training progress:  44%|████▍     | 264/600 [6:37:28<8:21:02, 89.47s/it]
+	Epoch: 265/600 | Time taken: 23938.80 seconds | Time remaining: 30352.59 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.7145
+
+Training progress:  44%|████▍     | 265/600 [6:38:58<8:20:31, 89.64s/it]Training progress:  44%|████▍     | 266/600 [6:40:28<8:19:19, 89.70s/it]Training progress:  44%|████▍     | 267/600 [6:41:58<8:18:56, 89.90s/it]Training progress:  45%|████▍     | 268/600 [6:43:28<8:17:12, 89.86s/it]Training progress:  45%|████▍     | 269/600 [6:44:58<8:15:12, 89.77s/it]
+	Epoch: 270/600 | Time taken: 24386.18 seconds | Time remaining: 29895.65 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.1923
+
+		Validating models at epoch 270
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 2.2562
+
+Training progress:  45%|████▌     | 270/600 [6:46:41<8:36:31, 93.91s/it]Training progress:  45%|████▌     | 271/600 [6:48:12<8:30:18, 93.07s/it]Training progress:  45%|████▌     | 272/600 [6:49:44<8:25:41, 92.51s/it]Training progress:  46%|████▌     | 273/600 [6:51:14<8:21:09, 91.96s/it]Training progress:  46%|████▌     | 274/600 [6:52:43<8:13:28, 90.82s/it]
+	Epoch: 275/600 | Time taken: 24852.97 seconds | Time remaining: 29462.07 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.2400
+
+Training progress:  46%|████▌     | 275/600 [6:54:12<8:10:31, 90.56s/it]Training progress:  46%|████▌     | 276/600 [6:55:42<8:08:06, 90.39s/it]Training progress:  46%|████▌     | 277/600 [6:57:13<8:06:55, 90.45s/it]Training progress:  46%|████▋     | 278/600 [6:58:43<8:04:22, 90.26s/it]Training progress:  46%|████▋     | 279/600 [7:00:10<7:57:38, 89.28s/it]
+	Epoch: 280/600 | Time taken: 25297.35 seconds | Time remaining: 29001.60 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.1556
+
+		Validating models at epoch 280
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 2.8838
+
+Training progress:  47%|████▋     | 280/600 [7:01:52<8:16:53, 93.17s/it]Training progress:  47%|████▋     | 281/600 [7:03:19<8:06:04, 91.43s/it]Training progress:  47%|████▋     | 282/600 [7:04:47<7:57:36, 90.11s/it]Training progress:  47%|████▋     | 283/600 [7:06:14<7:51:15, 89.20s/it]Training progress:  47%|████▋     | 284/600 [7:07:41<7:46:21, 88.55s/it]
+	Epoch: 285/600 | Time taken: 25748.30 seconds | Time remaining: 28548.99 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.5127
+
+Training progress:  48%|████▊     | 285/600 [7:09:08<7:42:44, 88.14s/it]Training progress:  48%|████▊     | 286/600 [7:10:35<7:39:57, 87.89s/it]Training progress:  48%|████▊     | 287/600 [7:12:02<7:37:22, 87.67s/it]Training progress:  48%|████▊     | 288/600 [7:13:29<7:35:02, 87.51s/it]Training progress:  48%|████▊     | 289/600 [7:14:57<7:33:05, 87.41s/it]
+	Epoch: 290/600 | Time taken: 26184.26 seconds | Time remaining: 28080.36 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4649
+
+		Validating models at epoch 290
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.6874
+
+Training progress:  48%|████▊     | 290/600 [7:16:39<7:54:48, 91.90s/it]Training progress:  48%|████▊     | 291/600 [7:18:06<7:46:05, 90.50s/it]Training progress:  49%|████▊     | 292/600 [7:19:33<7:39:20, 89.48s/it]Training progress:  49%|████▉     | 293/600 [7:21:01<7:34:28, 88.82s/it]Training progress:  49%|████▉     | 294/600 [7:22:28<7:31:22, 88.51s/it]
+	Epoch: 295/600 | Time taken: 26636.24 seconds | Time remaining: 27629.46 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.5318
+
+Training progress:  49%|████▉     | 295/600 [7:23:56<7:28:12, 88.17s/it]Training progress:  49%|████▉     | 296/600 [7:25:23<7:25:09, 87.86s/it]Training progress:  50%|████▉     | 297/600 [7:26:50<7:22:45, 87.67s/it]Training progress:  50%|████▉     | 298/600 [7:28:20<7:24:42, 88.35s/it]Training progress:  50%|████▉     | 299/600 [7:29:51<7:26:37, 89.03s/it]
+	Epoch: 300/600 | Time taken: 27081.69 seconds | Time remaining: 27171.96 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.3766
+
+		Validating models at epoch 300
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.3835
+
+Training progress:  50%|█████     | 300/600 [7:31:39<7:53:59, 94.80s/it]Training progress:  50%|█████     | 301/600 [7:33:10<7:47:19, 93.78s/it]Training progress:  50%|█████     | 302/600 [7:34:40<7:40:14, 92.67s/it]Training progress:  50%|█████     | 303/600 [7:36:11<7:35:00, 91.92s/it]Training progress:  51%|█████     | 304/600 [7:37:41<7:31:08, 91.45s/it]
+	Epoch: 305/600 | Time taken: 27552.49 seconds | Time remaining: 26739.46 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6831
+
+Training progress:  51%|█████     | 305/600 [7:39:12<7:29:04, 91.34s/it]Training progress:  51%|█████     | 306/600 [7:40:43<7:26:58, 91.22s/it]Training progress:  51%|█████     | 307/600 [7:42:14<7:25:06, 91.15s/it]Training progress:  51%|█████▏    | 308/600 [7:43:45<7:23:20, 91.10s/it]Training progress:  52%|█████▏    | 309/600 [7:45:16<7:21:42, 91.08s/it]
+	Epoch: 310/600 | Time taken: 28007.43 seconds | Time remaining: 26290.84 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.5048
+
+		Validating models at epoch 310
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.3212
+
+Training progress:  52%|█████▏    | 310/600 [7:47:02<7:42:00, 95.59s/it]Training progress:  52%|█████▏    | 311/600 [7:48:29<7:28:36, 93.13s/it]Training progress:  52%|█████▏    | 312/600 [7:49:59<7:22:16, 92.14s/it]Training progress:  52%|█████▏    | 313/600 [7:51:28<7:15:56, 91.14s/it]Training progress:  52%|█████▏    | 314/600 [7:52:57<7:10:58, 90.41s/it]
+	Epoch: 315/600 | Time taken: 28465.54 seconds | Time remaining: 25844.90 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.5619
+
+Training progress:  52%|█████▎    | 315/600 [7:54:25<7:06:22, 89.76s/it]Training progress:  53%|█████▎    | 316/600 [7:55:54<7:03:45, 89.53s/it]Training progress:  53%|█████▎    | 317/600 [7:57:24<7:02:28, 89.57s/it]Training progress:  53%|█████▎    | 318/600 [7:58:54<7:01:21, 89.65s/it]Training progress:  53%|█████▎    | 319/600 [8:00:25<7:01:54, 90.09s/it]
+	Epoch: 320/600 | Time taken: 28916.52 seconds | Time remaining: 25392.32 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6313
+
+		Validating models at epoch 320
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.7457
+
+Training progress:  53%|█████▎    | 320/600 [8:02:14<7:27:03, 95.80s/it]Training progress:  54%|█████▎    | 321/600 [8:03:41<7:13:55, 93.32s/it]Training progress:  54%|█████▎    | 322/600 [8:05:10<7:06:28, 92.05s/it]Training progress:  54%|█████▍    | 323/600 [8:06:39<6:59:39, 90.90s/it]Training progress:  54%|█████▍    | 324/600 [8:08:08<6:56:33, 90.56s/it]
+	Epoch: 325/600 | Time taken: 29376.39 seconds | Time remaining: 24947.33 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4777
+
+Training progress:  54%|█████▍    | 325/600 [8:09:36<6:50:55, 89.66s/it]Training progress:  54%|█████▍    | 326/600 [8:11:03<6:46:13, 88.95s/it]Training progress:  55%|█████▍    | 327/600 [8:12:32<6:44:06, 88.82s/it]Training progress:  55%|█████▍    | 328/600 [8:14:03<6:46:02, 89.57s/it]Training progress:  55%|█████▍    | 329/600 [8:15:33<6:45:19, 89.74s/it]
+	Epoch: 330/600 | Time taken: 29825.15 seconds | Time remaining: 24492.78 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4892
+
+		Validating models at epoch 330
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.3822
+
+Training progress:  55%|█████▌    | 330/600 [8:17:22<7:10:06, 95.58s/it]Training progress:  55%|█████▌    | 331/600 [8:18:52<7:00:32, 93.80s/it]Training progress:  55%|█████▌    | 332/600 [8:20:23<6:54:53, 92.88s/it]Training progress:  56%|█████▌    | 333/600 [8:21:52<6:49:02, 91.92s/it]Training progress:  56%|█████▌    | 334/600 [8:23:21<6:42:53, 90.88s/it]
+	Epoch: 335/600 | Time taken: 30292.20 seconds | Time remaining: 24052.91 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.5832
+
+Training progress:  56%|█████▌    | 335/600 [8:24:52<6:41:17, 90.86s/it]Training progress:  56%|█████▌    | 336/600 [8:26:22<6:39:32, 90.81s/it]Training progress:  56%|█████▌    | 337/600 [8:27:52<6:37:03, 90.58s/it]Training progress:  56%|█████▋    | 338/600 [8:29:22<6:34:36, 90.37s/it]Training progress:  56%|█████▋    | 339/600 [8:30:52<6:32:31, 90.23s/it]
+	Epoch: 340/600 | Time taken: 30739.72 seconds | Time remaining: 23597.26 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.7926
+
+		Validating models at epoch 340
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.2960
+
+Training progress:  57%|█████▋    | 340/600 [8:32:37<6:49:33, 94.51s/it]Training progress:  57%|█████▋    | 341/600 [8:34:06<6:41:27, 93.00s/it]Training progress:  57%|█████▋    | 342/600 [8:35:35<6:34:35, 91.77s/it]Training progress:  57%|█████▋    | 343/600 [8:37:05<6:30:34, 91.19s/it]Training progress:  57%|█████▋    | 344/600 [8:38:35<6:27:59, 90.94s/it]
+	Epoch: 345/600 | Time taken: 31204.56 seconds | Time remaining: 23154.69 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4434
+
+Training progress:  57%|█████▊    | 345/600 [8:40:04<6:23:44, 90.29s/it]Training progress:  58%|█████▊    | 346/600 [8:41:34<6:21:14, 90.06s/it]Training progress:  58%|█████▊    | 347/600 [8:43:05<6:20:56, 90.34s/it]Training progress:  58%|█████▊    | 348/600 [8:44:34<6:18:50, 90.20s/it]Training progress:  58%|█████▊    | 349/600 [8:46:02<6:13:51, 89.37s/it]
+	Epoch: 350/600 | Time taken: 31649.44 seconds | Time remaining: 22697.17 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.0795
+
+		Validating models at epoch 350
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 2.5977
+
+Training progress:  58%|█████▊    | 350/600 [8:47:44<6:28:23, 93.22s/it]Training progress:  58%|█████▊    | 351/600 [8:49:11<6:19:12, 91.38s/it]Training progress:  59%|█████▊    | 352/600 [8:50:38<6:12:15, 90.06s/it]Training progress:  59%|█████▉    | 353/600 [8:52:05<6:07:00, 89.15s/it]Training progress:  59%|█████▉    | 354/600 [8:53:32<6:02:57, 88.52s/it]
+	Epoch: 355/600 | Time taken: 32099.75 seconds | Time remaining: 22243.77 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.3262
+
+Training progress:  59%|█████▉    | 355/600 [8:54:59<5:59:37, 88.07s/it]Training progress:  59%|█████▉    | 356/600 [8:56:26<5:56:51, 87.75s/it]Training progress:  60%|█████▉    | 357/600 [8:57:57<5:58:46, 88.59s/it]Training progress:  60%|█████▉    | 358/600 [8:59:28<6:00:21, 89.34s/it]Training progress:  60%|█████▉    | 359/600 [9:00:59<6:00:58, 89.87s/it]
+	Epoch: 360/600 | Time taken: 32548.84 seconds | Time remaining: 21789.64 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.7347
+
+		Validating models at epoch 360
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.9011
+
+Training progress:  60%|██████    | 360/600 [9:02:44<6:17:02, 94.26s/it]Training progress:  60%|██████    | 361/600 [9:04:11<6:06:56, 92.12s/it]Training progress:  60%|██████    | 362/600 [9:05:38<5:59:18, 90.58s/it]Training progress:  60%|██████    | 363/600 [9:07:05<5:53:35, 89.52s/it]Training progress:  61%|██████    | 364/600 [9:08:32<5:49:34, 88.87s/it]
+	Epoch: 365/600 | Time taken: 32999.67 seconds | Time remaining: 21336.77 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.7955
+
+Training progress:  61%|██████    | 365/600 [9:09:59<5:46:03, 88.35s/it]Training progress:  61%|██████    | 366/600 [9:11:26<5:42:57, 87.94s/it]Training progress:  61%|██████    | 367/600 [9:12:53<5:40:28, 87.68s/it]Training progress:  61%|██████▏   | 368/600 [9:14:20<5:38:18, 87.49s/it]Training progress:  62%|██████▏   | 369/600 [9:15:47<5:36:20, 87.36s/it]
+	Epoch: 370/600 | Time taken: 33434.88 seconds | Time remaining: 20874.21 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.9862
+
+		Validating models at epoch 370
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 5.4168
+
+Training progress:  62%|██████▏   | 370/600 [9:17:30<5:52:00, 91.83s/it]Training progress:  62%|██████▏   | 371/600 [9:18:57<5:45:05, 90.42s/it]Training progress:  62%|██████▏   | 372/600 [9:20:24<5:39:46, 89.42s/it]Training progress:  62%|██████▏   | 373/600 [9:21:51<5:35:33, 88.69s/it]Training progress:  62%|██████▏   | 374/600 [9:23:18<5:32:13, 88.20s/it]
+	Epoch: 375/600 | Time taken: 33885.44 seconds | Time remaining: 20421.63 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.7246
+
+Training progress:  62%|██████▎   | 375/600 [9:24:45<5:29:30, 87.87s/it]Training progress:  63%|██████▎   | 376/600 [9:26:12<5:27:10, 87.64s/it]Training progress:  63%|██████▎   | 377/600 [9:27:39<5:25:06, 87.47s/it]Training progress:  63%|██████▎   | 378/600 [9:29:06<5:23:18, 87.38s/it]Training progress:  63%|██████▎   | 379/600 [9:30:33<5:21:33, 87.30s/it]
+	Epoch: 380/600 | Time taken: 34320.99 seconds | Time remaining: 19960.36 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.5195
+
+		Validating models at epoch 380
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 0.8311
+
+Training progress:  63%|██████▎   | 380/600 [9:32:16<5:36:46, 91.85s/it]Training progress:  64%|██████▎   | 381/600 [9:33:43<5:30:06, 90.44s/it]Training progress:  64%|██████▎   | 382/600 [9:35:10<5:25:00, 89.45s/it]Training progress:  64%|██████▍   | 383/600 [9:36:37<5:21:02, 88.77s/it]Training progress:  64%|██████▍   | 384/600 [9:38:04<5:17:49, 88.28s/it]
+	Epoch: 385/600 | Time taken: 34772.13 seconds | Time remaining: 19508.52 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.8236
+
+Training progress:  64%|██████▍   | 385/600 [9:39:32<5:15:07, 87.94s/it]Training progress:  64%|██████▍   | 386/600 [9:40:59<5:12:46, 87.69s/it]Training progress:  64%|██████▍   | 387/600 [9:42:26<5:10:43, 87.53s/it]Training progress:  65%|██████▍   | 388/600 [9:43:53<5:09:10, 87.50s/it]Training progress:  65%|██████▍   | 389/600 [9:45:20<5:07:15, 87.37s/it]
+	Epoch: 390/600 | Time taken: 35208.08 seconds | Time remaining: 19048.47 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.3962
+
+		Validating models at epoch 390
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 3.2464
+
+Training progress:  65%|██████▌   | 390/600 [9:47:03<5:21:37, 91.89s/it]Training progress:  65%|██████▌   | 391/600 [9:48:30<5:15:21, 90.53s/it]Training progress:  65%|██████▌   | 392/600 [9:49:58<5:10:47, 89.65s/it]Training progress:  66%|██████▌   | 393/600 [9:51:29<5:10:36, 90.03s/it]Training progress:  66%|██████▌   | 394/600 [9:53:00<5:10:02, 90.30s/it]
+	Epoch: 395/600 | Time taken: 35671.03 seconds | Time remaining: 18603.12 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4106
+
+Training progress:  66%|██████▌   | 395/600 [9:54:31<5:09:07, 90.48s/it]Training progress:  66%|██████▌   | 396/600 [9:56:01<5:08:06, 90.62s/it]Training progress:  66%|██████▌   | 397/600 [9:57:32<5:06:54, 90.71s/it]Training progress:  66%|██████▋   | 398/600 [9:59:03<5:05:39, 90.79s/it]Training progress:  66%|██████▋   | 399/600 [10:00:31<5:01:06, 89.88s/it]
+	Epoch: 400/600 | Time taken: 36118.95 seconds | Time remaining: 18149.77 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6977
+
+		Validating models at epoch 400
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.3881
+
+Training progress:  67%|██████▋   | 400/600 [10:02:14<5:12:13, 93.67s/it]Training progress:  67%|██████▋   | 401/600 [10:03:41<5:04:37, 91.84s/it]Training progress:  67%|██████▋   | 402/600 [10:05:09<4:58:57, 90.59s/it]Training progress:  67%|██████▋   | 403/600 [10:06:36<4:53:51, 89.50s/it]Training progress:  67%|██████▋   | 404/600 [10:08:03<4:49:52, 88.74s/it]
+	Epoch: 405/600 | Time taken: 36570.31 seconds | Time remaining: 17698.22 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.2634
+
+Training progress:  68%|██████▊   | 405/600 [10:09:30<4:46:41, 88.21s/it]Training progress:  68%|██████▊   | 406/600 [10:10:57<4:44:02, 87.85s/it]Training progress:  68%|██████▊   | 407/600 [10:12:24<4:41:42, 87.58s/it]Training progress:  68%|██████▊   | 408/600 [10:13:51<4:39:40, 87.40s/it]Training progress:  68%|██████▊   | 409/600 [10:15:18<4:37:46, 87.26s/it]
+	Epoch: 410/600 | Time taken: 37005.41 seconds | Time remaining: 17239.10 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4376
+
+		Validating models at epoch 410
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.1522
+
+Training progress:  68%|██████▊   | 410/600 [10:17:00<4:50:37, 91.78s/it]Training progress:  68%|██████▊   | 411/600 [10:18:27<4:44:38, 90.36s/it]Training progress:  69%|██████▊   | 412/600 [10:19:54<4:39:56, 89.34s/it]Training progress:  69%|██████▉   | 413/600 [10:21:21<4:36:34, 88.74s/it]Training progress:  69%|██████▉   | 414/600 [10:22:48<4:33:34, 88.25s/it]
+	Epoch: 415/600 | Time taken: 37456.33 seconds | Time remaining: 16787.66 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6691
+
+Training progress:  69%|██████▉   | 415/600 [10:24:16<4:31:18, 87.99s/it]Training progress:  69%|██████▉   | 416/600 [10:25:43<4:28:58, 87.71s/it]Training progress:  70%|██████▉   | 417/600 [10:27:10<4:26:51, 87.50s/it]Training progress:  70%|██████▉   | 418/600 [10:28:37<4:24:56, 87.34s/it]Training progress:  70%|██████▉   | 419/600 [10:30:04<4:23:10, 87.24s/it]
+	Epoch: 420/600 | Time taken: 37892.08 seconds | Time remaining: 16329.68 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.8689
+
+		Validating models at epoch 420
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 0.5851
+
+Training progress:  70%|███████   | 420/600 [10:31:47<4:35:49, 91.94s/it]Training progress:  70%|███████   | 421/600 [10:33:14<4:29:57, 90.49s/it]Training progress:  70%|███████   | 422/600 [10:34:42<4:25:57, 89.65s/it]Training progress:  70%|███████   | 423/600 [10:36:09<4:22:11, 88.88s/it]Training progress:  71%|███████   | 424/600 [10:37:36<4:19:20, 88.41s/it]
+	Epoch: 425/600 | Time taken: 38343.59 seconds | Time remaining: 15878.76 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4987
+
+Training progress:  71%|███████   | 425/600 [10:39:03<4:16:43, 88.02s/it]Training progress:  71%|███████   | 426/600 [10:40:34<4:17:28, 88.79s/it]Training progress:  71%|███████   | 427/600 [10:42:04<4:17:37, 89.35s/it]Training progress:  71%|███████▏  | 428/600 [10:43:35<4:17:24, 89.79s/it]Training progress:  72%|███████▏  | 429/600 [10:45:06<4:16:58, 90.17s/it]
+	Epoch: 430/600 | Time taken: 38795.29 seconds | Time remaining: 15427.90 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4721
+
+		Validating models at epoch 430
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 0.7109
+
+Training progress:  72%|███████▏  | 430/600 [10:46:50<4:27:08, 94.29s/it]Training progress:  72%|███████▏  | 431/600 [10:48:17<4:19:44, 92.22s/it]Training progress:  72%|███████▏  | 432/600 [10:49:45<4:13:52, 90.67s/it]Training progress:  72%|███████▏  | 433/600 [10:51:11<4:09:13, 89.54s/it]Training progress:  72%|███████▏  | 434/600 [10:52:38<4:05:32, 88.75s/it]
+	Epoch: 435/600 | Time taken: 39245.73 seconds | Time remaining: 14976.53 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6623
+
+Training progress:  72%|███████▎  | 435/600 [10:54:05<4:02:31, 88.19s/it]Training progress:  73%|███████▎  | 436/600 [10:55:32<3:59:59, 87.80s/it]Training progress:  73%|███████▎  | 437/600 [10:56:59<3:57:48, 87.54s/it]Training progress:  73%|███████▎  | 438/600 [10:58:26<3:55:47, 87.33s/it]Training progress:  73%|███████▎  | 439/600 [10:59:53<3:54:11, 87.28s/it]
+	Epoch: 440/600 | Time taken: 39680.44 seconds | Time remaining: 14519.43 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.2560
+
+		Validating models at epoch 440
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.1393
+
+Training progress:  73%|███████▎  | 440/600 [11:01:35<4:04:34, 91.72s/it]Training progress:  74%|███████▎  | 441/600 [11:03:02<3:59:15, 90.29s/it]Training progress:  74%|███████▎  | 442/600 [11:04:29<3:55:16, 89.34s/it]Training progress:  74%|███████▍  | 443/600 [11:05:56<3:51:54, 88.62s/it]Training progress:  74%|███████▍  | 444/600 [11:07:23<3:49:08, 88.13s/it]
+	Epoch: 445/600 | Time taken: 40130.70 seconds | Time remaining: 14068.29 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.0438
+
+Training progress:  74%|███████▍  | 445/600 [11:08:50<3:46:50, 87.81s/it]Training progress:  74%|███████▍  | 446/600 [11:10:18<3:45:04, 87.69s/it]Training progress:  74%|███████▍  | 447/600 [11:11:45<3:43:11, 87.52s/it]Training progress:  75%|███████▍  | 448/600 [11:13:12<3:41:22, 87.39s/it]Training progress:  75%|███████▍  | 449/600 [11:14:39<3:39:37, 87.27s/it]
+	Epoch: 450/600 | Time taken: 40566.35 seconds | Time remaining: 13612.27 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4467
+
+		Validating models at epoch 450
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.3174
+
+Training progress:  75%|███████▌  | 450/600 [11:16:21<3:49:22, 91.75s/it]Training progress:  75%|███████▌  | 451/600 [11:17:48<3:44:20, 90.34s/it]Training progress:  75%|███████▌  | 452/600 [11:19:15<3:40:18, 89.32s/it]Training progress:  76%|███████▌  | 453/600 [11:20:42<3:37:10, 88.65s/it]Training progress:  76%|███████▌  | 454/600 [11:22:09<3:34:31, 88.16s/it]
+	Epoch: 455/600 | Time taken: 41016.67 seconds | Time remaining: 13161.39 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.6333
+
+Training progress:  76%|███████▌  | 455/600 [11:23:36<3:32:15, 87.83s/it]Training progress:  76%|███████▌  | 456/600 [11:25:03<3:30:13, 87.59s/it]Training progress:  76%|███████▌  | 457/600 [11:26:30<3:28:16, 87.39s/it]Training progress:  76%|███████▋  | 458/600 [11:27:57<3:26:29, 87.25s/it]Training progress:  76%|███████▋  | 459/600 [11:29:24<3:25:06, 87.28s/it]
+	Epoch: 460/600 | Time taken: 41455.15 seconds | Time remaining: 12706.90 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.8465
+
+		Validating models at epoch 460
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.4077
+
+Training progress:  77%|███████▋  | 460/600 [11:31:12<3:38:09, 93.50s/it]Training progress:  77%|███████▋  | 461/600 [11:32:40<3:32:29, 91.72s/it]Training progress:  77%|███████▋  | 462/600 [11:34:07<3:27:46, 90.33s/it]Training progress:  77%|███████▋  | 463/600 [11:35:34<3:23:56, 89.32s/it]Training progress:  77%|███████▋  | 464/600 [11:37:01<3:20:48, 88.59s/it]
+	Epoch: 465/600 | Time taken: 41908.45 seconds | Time remaining: 12257.10 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.5694
+
+Training progress:  78%|███████▊  | 465/600 [11:38:28<3:18:16, 88.12s/it]Training progress:  78%|███████▊  | 466/600 [11:39:55<3:16:00, 87.76s/it]Training progress:  78%|███████▊  | 467/600 [11:41:22<3:14:15, 87.63s/it]Training progress:  78%|███████▊  | 468/600 [11:42:49<3:12:20, 87.43s/it]Training progress:  78%|███████▊  | 469/600 [11:44:16<3:10:33, 87.28s/it]
+	Epoch: 470/600 | Time taken: 42343.80 seconds | Time remaining: 11802.21 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.1303
+
+		Validating models at epoch 470
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 2.8937
+
+Training progress:  78%|███████▊  | 470/600 [11:45:58<3:18:53, 91.79s/it]Training progress:  78%|███████▊  | 471/600 [11:47:25<3:14:13, 90.34s/it]Training progress:  79%|███████▊  | 472/600 [11:48:52<3:10:32, 89.32s/it]Training progress:  79%|███████▉  | 473/600 [11:50:19<3:07:28, 88.57s/it]Training progress:  79%|███████▉  | 474/600 [11:51:46<3:04:56, 88.07s/it]
+	Epoch: 475/600 | Time taken: 42794.12 seconds | Time remaining: 11351.70 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.4193
+
+Training progress:  79%|███████▉  | 475/600 [11:53:14<3:03:10, 87.93s/it]Training progress:  79%|███████▉  | 476/600 [11:54:45<3:03:38, 88.86s/it]Training progress:  80%|███████▉  | 477/600 [11:56:16<3:03:25, 89.47s/it]Training progress:  80%|███████▉  | 478/600 [11:57:47<3:02:53, 89.95s/it]Training progress:  80%|███████▉  | 479/600 [11:59:17<3:01:45, 90.13s/it]
+	Epoch: 480/600 | Time taken: 43248.69 seconds | Time remaining: 10902.27 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.3477
+
+		Validating models at epoch 480
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 0.4777
+
+Training progress:  80%|████████  | 480/600 [12:01:06<3:11:26, 95.72s/it]Training progress:  80%|████████  | 481/600 [12:02:37<3:06:54, 94.24s/it]Training progress:  80%|████████  | 482/600 [12:04:07<3:03:03, 93.08s/it]Training progress:  80%|████████  | 483/600 [12:05:38<3:00:16, 92.45s/it]Training progress:  81%|████████  | 484/600 [12:07:09<2:57:57, 92.05s/it]
+	Epoch: 485/600 | Time taken: 43720.64 seconds | Time remaining: 10456.89 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4081
+
+Training progress:  81%|████████  | 485/600 [12:08:40<2:55:47, 91.72s/it]Training progress:  81%|████████  | 486/600 [12:10:11<2:53:52, 91.51s/it]Training progress:  81%|████████  | 487/600 [12:11:42<2:52:04, 91.37s/it]Training progress:  81%|████████▏ | 488/600 [12:13:11<2:48:51, 90.46s/it]Training progress:  82%|████████▏ | 489/600 [12:14:38<2:45:24, 89.41s/it]
+	Epoch: 490/600 | Time taken: 44165.31 seconds | Time remaining: 10004.79 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 2.1788
+
+		Validating models at epoch 490
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 2.4277
+
+Training progress:  82%|████████▏ | 490/600 [12:16:20<2:51:08, 93.35s/it]Training progress:  82%|████████▏ | 491/600 [12:17:47<2:46:11, 91.49s/it]Training progress:  82%|████████▏ | 492/600 [12:19:14<2:42:18, 90.17s/it]Training progress:  82%|████████▏ | 493/600 [12:20:41<2:39:10, 89.25s/it]Training progress:  82%|████████▏ | 494/600 [12:22:09<2:36:32, 88.61s/it]
+	Epoch: 495/600 | Time taken: 44616.14 seconds | Time remaining: 9554.16 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4858
+
+Training progress:  82%|████████▎ | 495/600 [12:23:36<2:34:17, 88.17s/it]Training progress:  83%|████████▎ | 496/600 [12:25:03<2:32:16, 87.85s/it]Training progress:  83%|████████▎ | 497/600 [12:26:30<2:30:25, 87.62s/it]Training progress:  83%|████████▎ | 498/600 [12:27:57<2:28:44, 87.50s/it]Training progress:  83%|████████▎ | 499/600 [12:29:24<2:27:06, 87.39s/it]
+	Epoch: 500/600 | Time taken: 45051.79 seconds | Time remaining: 9100.46 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.3266
+
+		Validating models at epoch 500
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 5.1887
+
+Training progress:  83%|████████▎ | 500/600 [12:31:07<2:33:07, 91.88s/it]Training progress:  84%|████████▎ | 501/600 [12:32:34<2:29:11, 90.42s/it]Training progress:  84%|████████▎ | 502/600 [12:34:01<2:26:05, 89.44s/it]Training progress:  84%|████████▍ | 503/600 [12:35:28<2:23:32, 88.79s/it]Training progress:  84%|████████▍ | 504/600 [12:36:55<2:21:15, 88.29s/it]
+	Epoch: 505/600 | Time taken: 45502.71 seconds | Time remaining: 8650.02 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.3207
+
+Training progress:  84%|████████▍ | 505/600 [12:38:22<2:19:14, 87.94s/it]Training progress:  84%|████████▍ | 506/600 [12:39:49<2:17:23, 87.70s/it]Training progress:  84%|████████▍ | 507/600 [12:41:16<2:15:39, 87.52s/it]Training progress:  85%|████████▍ | 508/600 [12:42:44<2:14:00, 87.39s/it]Training progress:  85%|████████▍ | 509/600 [12:44:11<2:12:22, 87.28s/it]
+	Epoch: 510/600 | Time taken: 45938.04 seconds | Time remaining: 8196.79 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4810
+
+		Validating models at epoch 510
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.3793
+
+Training progress:  85%|████████▌ | 510/600 [12:45:53<2:17:36, 91.74s/it]Training progress:  85%|████████▌ | 511/600 [12:47:20<2:13:58, 90.32s/it]Training progress:  85%|████████▌ | 512/600 [12:48:47<2:11:00, 89.32s/it]Training progress:  86%|████████▌ | 513/600 [12:50:14<2:08:30, 88.62s/it]Training progress:  86%|████████▌ | 514/600 [12:51:41<2:06:18, 88.12s/it]
+	Epoch: 515/600 | Time taken: 46388.26 seconds | Time remaining: 7746.39 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6277
+
+Training progress:  86%|████████▌ | 515/600 [12:53:08<2:04:24, 87.82s/it]Training progress:  86%|████████▌ | 516/600 [12:54:35<2:02:38, 87.60s/it]Training progress:  86%|████████▌ | 517/600 [12:56:02<2:01:06, 87.55s/it]Training progress:  86%|████████▋ | 518/600 [12:57:29<1:59:27, 87.40s/it]Training progress:  86%|████████▋ | 519/600 [12:58:56<1:57:51, 87.30s/it]
+	Epoch: 520/600 | Time taken: 46823.99 seconds | Time remaining: 7293.74 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4220
+
+		Validating models at epoch 520
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 0.8092
+
+Training progress:  87%|████████▋ | 520/600 [13:00:39<2:02:25, 91.82s/it]Training progress:  87%|████████▋ | 521/600 [13:02:07<1:59:37, 90.85s/it]Training progress:  87%|████████▋ | 522/600 [13:03:35<1:56:57, 89.96s/it]Training progress:  87%|████████▋ | 523/600 [13:05:04<1:54:54, 89.54s/it]Training progress:  87%|████████▋ | 524/600 [13:06:31<1:52:28, 88.79s/it]
+	Epoch: 525/600 | Time taken: 47278.55 seconds | Time remaining: 6844.13 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.9231
+
+Training progress:  88%|████████▊ | 525/600 [13:07:58<1:50:23, 88.31s/it]Training progress:  88%|████████▊ | 526/600 [13:09:26<1:48:36, 88.06s/it]Training progress:  88%|████████▊ | 527/600 [13:10:56<1:48:10, 88.91s/it]Training progress:  88%|████████▊ | 528/600 [13:12:25<1:46:36, 88.84s/it]Training progress:  88%|████████▊ | 529/600 [13:13:52<1:44:29, 88.31s/it]
+	Epoch: 530/600 | Time taken: 47719.98 seconds | Time remaining: 6392.68 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 2.2589
+
+		Validating models at epoch 530
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 9.4672
+
+Training progress:  88%|████████▊ | 530/600 [13:15:35<1:47:58, 92.55s/it]Training progress:  88%|████████▊ | 531/600 [13:17:03<1:44:53, 91.20s/it]Training progress:  89%|████████▊ | 532/600 [13:18:30<1:41:55, 89.93s/it]Training progress:  89%|████████▉ | 533/600 [13:19:58<1:39:58, 89.53s/it]Training progress:  89%|████████▉ | 534/600 [13:21:29<1:38:52, 89.88s/it]
+	Epoch: 535/600 | Time taken: 48180.24 seconds | Time remaining: 5943.73 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.8348
+
+Training progress:  89%|████████▉ | 535/600 [13:23:00<1:37:40, 90.16s/it]Training progress:  89%|████████▉ | 536/600 [13:24:31<1:36:32, 90.51s/it]Training progress:  90%|████████▉ | 537/600 [13:25:59<1:34:17, 89.80s/it]Training progress:  90%|████████▉ | 538/600 [13:27:30<1:32:58, 89.98s/it]Training progress:  90%|████████▉ | 539/600 [13:28:57<1:30:35, 89.10s/it]
+	Epoch: 540/600 | Time taken: 48624.22 seconds | Time remaining: 5492.74 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4072
+
+		Validating models at epoch 540
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 0.6713
+
+Training progress:  90%|█████████ | 540/600 [13:30:39<1:33:01, 93.03s/it]Training progress:  90%|█████████ | 541/600 [13:32:06<1:29:44, 91.26s/it]Training progress:  90%|█████████ | 542/600 [13:33:33<1:27:01, 90.02s/it]Training progress:  90%|█████████ | 543/600 [13:35:00<1:24:40, 89.14s/it]Training progress:  91%|█████████ | 544/600 [13:36:27<1:22:35, 88.49s/it]
+	Epoch: 545/600 | Time taken: 49074.61 seconds | Time remaining: 5042.53 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6663
+
+Training progress:  91%|█████████ | 545/600 [13:37:54<1:20:41, 88.03s/it]Training progress:  91%|█████████ | 546/600 [13:39:21<1:18:58, 87.74s/it]Training progress:  91%|█████████ | 547/600 [13:40:48<1:17:19, 87.54s/it]Training progress:  91%|█████████▏| 548/600 [13:42:15<1:15:44, 87.40s/it]Training progress:  92%|█████████▏| 549/600 [13:43:42<1:14:11, 87.29s/it]
+	Epoch: 550/600 | Time taken: 49509.86 seconds | Time remaining: 4590.91 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.2414
+
+		Validating models at epoch 550
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 0.4953
+
+Training progress:  92%|█████████▏| 550/600 [13:45:25<1:16:27, 91.76s/it]Training progress:  92%|█████████▏| 551/600 [13:46:52<1:13:46, 90.34s/it]Training progress:  92%|█████████▏| 552/600 [13:48:19<1:11:30, 89.39s/it]Training progress:  92%|█████████▏| 553/600 [13:49:46<1:09:30, 88.73s/it]Training progress:  92%|█████████▏| 554/600 [13:51:13<1:07:36, 88.19s/it]
+	Epoch: 555/600 | Time taken: 49960.64 seconds | Time remaining: 4140.88 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 1.5576
+
+Training progress:  92%|█████████▎| 555/600 [13:52:40<1:05:56, 87.92s/it]Training progress:  93%|█████████▎| 556/600 [13:54:07<1:04:16, 87.65s/it]Training progress:  93%|█████████▎| 557/600 [13:55:34<1:02:43, 87.51s/it]Training progress:  93%|█████████▎| 558/600 [13:57:01<1:01:09, 87.36s/it]Training progress:  93%|█████████▎| 559/600 [13:58:28<59:36, 87.22s/it]  
+	Epoch: 560/600 | Time taken: 50395.79 seconds | Time remaining: 3689.69 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.3164
+
+		Validating models at epoch 560
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 0.4293
+
+Training progress:  93%|█████████▎| 560/600 [14:00:10<1:01:07, 91.69s/it]Training progress:  94%|█████████▎| 561/600 [14:01:37<58:40, 90.26s/it]  Training progress:  94%|█████████▎| 562/600 [14:03:04<56:32, 89.28s/it]Training progress:  94%|█████████▍| 563/600 [14:04:31<54:36, 88.57s/it]Training progress:  94%|█████████▍| 564/600 [14:05:58<52:50, 88.07s/it]
+	Epoch: 565/600 | Time taken: 50845.78 seconds | Time remaining: 3239.73 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6906
+
+Training progress:  94%|█████████▍| 565/600 [14:07:25<51:13, 87.80s/it]Training progress:  94%|█████████▍| 566/600 [14:08:53<49:40, 87.66s/it]Training progress:  94%|█████████▍| 567/600 [14:10:20<48:06, 87.47s/it]Training progress:  95%|█████████▍| 568/600 [14:11:47<46:35, 87.36s/it]Training progress:  95%|█████████▍| 569/600 [14:13:14<45:05, 87.26s/it]
+	Epoch: 570/600 | Time taken: 51281.49 seconds | Time remaining: 2788.99 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4890
+
+		Validating models at epoch 570
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 0.8433
+
+Training progress:  95%|█████████▌| 570/600 [14:14:56<45:54, 91.81s/it]Training progress:  95%|█████████▌| 571/600 [14:16:23<43:41, 90.41s/it]Training progress:  95%|█████████▌| 572/600 [14:17:50<41:41, 89.35s/it]Training progress:  96%|█████████▌| 573/600 [14:19:18<39:57, 88.81s/it]Training progress:  96%|█████████▌| 574/600 [14:20:45<38:15, 88.29s/it]
+	Epoch: 575/600 | Time taken: 51732.31 seconds | Time remaining: 2339.20 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.9477
+
+Training progress:  96%|█████████▌| 575/600 [14:22:12<36:37, 87.89s/it]Training progress:  96%|█████████▌| 576/600 [14:23:39<35:03, 87.63s/it]Training progress:  96%|█████████▌| 577/600 [14:25:06<33:31, 87.44s/it]Training progress:  96%|█████████▋| 578/600 [14:26:33<32:00, 87.29s/it]Training progress:  96%|█████████▋| 579/600 [14:28:00<30:31, 87.20s/it]
+	Epoch: 580/600 | Time taken: 52167.14 seconds | Time remaining: 1888.81 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.6202
+
+		Validating models at epoch 580
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 0.4193
+
+Training progress:  97%|█████████▋| 580/600 [14:29:42<30:32, 91.63s/it]Training progress:  97%|█████████▋| 581/600 [14:31:09<28:33, 90.21s/it]Training progress:  97%|█████████▋| 582/600 [14:32:36<26:46, 89.26s/it]Training progress:  97%|█████████▋| 583/600 [14:34:03<25:05, 88.56s/it]Training progress:  97%|█████████▋| 584/600 [14:35:30<23:29, 88.07s/it]
+	Epoch: 585/600 | Time taken: 52616.91 seconds | Time remaining: 1439.10 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.7250
+
+Training progress:  98%|█████████▊| 585/600 [14:36:56<21:55, 87.72s/it]Training progress:  98%|█████████▊| 586/600 [14:38:23<20:24, 87.48s/it]Training progress:  98%|█████████▊| 587/600 [14:39:50<18:55, 87.33s/it]Training progress:  98%|█████████▊| 588/600 [14:41:17<17:26, 87.25s/it]Training progress:  98%|█████████▊| 589/600 [14:42:44<15:58, 87.15s/it]
+	Epoch: 590/600 | Time taken: 53051.89 seconds | Time remaining: 989.10 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.5228
+
+		Validating models at epoch 590
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.6633
+
+Training progress:  98%|█████████▊| 590/600 [14:44:27<15:16, 91.69s/it]Training progress:  98%|█████████▊| 591/600 [14:45:54<13:33, 90.40s/it]Training progress:  99%|█████████▊| 592/600 [14:47:21<11:55, 89.40s/it]Training progress:  99%|█████████▉| 593/600 [14:48:48<10:20, 88.66s/it]Training progress:  99%|█████████▉| 594/600 [14:50:15<08:49, 88.21s/it]
+	Epoch: 595/600 | Time taken: 53502.62 seconds | Time remaining: 539.52 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4639
+
+Training progress:  99%|█████████▉| 595/600 [14:51:42<07:19, 87.84s/it]Training progress:  99%|█████████▉| 596/600 [14:53:09<05:50, 87.58s/it]Training progress: 100%|█████████▉| 597/600 [14:54:36<04:22, 87.37s/it]Training progress: 100%|█████████▉| 598/600 [14:56:03<02:54, 87.34s/it]Training progress: 100%|█████████▉| 599/600 [14:57:30<01:27, 87.23s/it]
+	Epoch: 600/600 | Time taken: 53939.01 seconds | Time remaining: 89.90 seconds
+	EGNN Loss: 0.0002 | GNN Loss: 0.4371
+
+		Validating models at epoch 600
+		EGNN Validation Loss: 0.0002 | GNN Validation Loss: 1.1645
+
+Training progress: 100%|██████████| 600/600 [14:59:14<00:00, 92.08s/it]Training progress: 100%|██████████| 600/600 [14:59:14<00:00, 89.92s/it]
+
+
+Training completed in 53954.11 seconds.
+
+
+
+
+==================== Testing in progress ====================
+
+
+Test results:
+	EGNN: 0.0002
+	GNN:  1.2410
+
+
+
+
+Experiment completed.
+
+
+Plot saved to ./plots/training_curves_v2.png.
+Results saved to ./csv/train_results_v2.pkl.
+Final models saved! 
+
+
